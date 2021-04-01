@@ -18,10 +18,10 @@ function App() {
 			</h1>
 				<div className="sub">Software and DevOps Engineer</div>
 				<div className="linkBar">
-					<a href="https://www.github.com/rpenley"><img src={githubLogo} className="logo" alt="git-logo" /></a>
-					<a href="https://www.linkedin.com/in/rynepenley"><img src={linkedinLogo} className="logo" alt="linkedin-logo" /></a>
-					<a href="https://www.hackerrank.com/rynepenley"><img src={hackerrankLogo} className="logo" alt="hackerrank-logo" /></a>
-					<a href="https://rdp-static.s3.us-east-2.amazonaws.com/Ryne-Penley-Resume.pdf" target="_blank"><img src={resumeLogo} className="logo" alt="resume-logo" /></a>
+					<a href="https://www.github.com/rpenley" target="_blank" rel="noreferrer"><img src={githubLogo} className="logo" alt="git-logo" /></a>
+					<a href="https://www.linkedin.com/in/rynepenley" target="_blank" rel="noreferrer"><img src={linkedinLogo} className="logo" alt="linkedin-logo" /></a>
+					<a href="https://www.hackerrank.com/rynepenley" target="_blank" rel="noreferrer"><img src={hackerrankLogo} className="logo" alt="hackerrank-logo" /></a>
+					<a href="https://rdp-static.s3.us-east-2.amazonaws.com/Ryne-Penley-Resume.pdf" target="_blank" rel="noreferrer"><img src={resumeLogo} className="logo" alt="resume-logo" /></a>
 					<a href="mailto:rynepenley@gmail.com"><img src={emailLogo} className="logo" alt="email-logo" /></a>
 				</div>
 			</header>
