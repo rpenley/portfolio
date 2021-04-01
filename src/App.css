@@ -1,16 +1,33 @@
 .App {
   text-align: center;
+	display: flex;
+  align-items: center;
+  justify-content: center;
 
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 13.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 13.1 */
+            animation: fadein 3s;
 }
 
 .react-logo {
-  height: 3vmax;
+  height: 2vmax;
   pointer-events: none;
+}
+
+.git-logo {
+	height: 5vmax;
+	margin: 5;
+}
+.logo {
+	height: 4vmax;
+	padding: 15px;
+}
+
+a:hover {
+	  -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,12 +38,14 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  #min-height: 100vh;
+  #max-height: 80vh;
+	#display: flex;
+  #flex-direction: column;
+  #align-items: center;
+  #justify-content: center;
+  #font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -50,10 +69,12 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+	opacity: 0.8;
+	z-index: -1;
 }
 
 html, body {
-  height: 100%;
+  height: 95vh;
 }
 html {
   font-size: 150%;
@@ -64,27 +85,32 @@ body {
 }
 
 .viewport-header {
-  position: relative;
-  height: 100vh;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
+ 
 h1 {
-  font-family: 'Syncopate', sans-serif;
-  color: #4a3a27;
+  #font-family: 'Syncopate', sans-serif;
+  #color: #4a3a27;
+  color: white;
   text-transform: uppercase;
-  letter-spacing: 3vw;
+  letter-spacing: 1.1vw;
   line-height: 1.2;
   font-size: 3vw;
   text-align: center;
-  span {
-    display: block;
-    font-size: 10vw;
-    letter-spacing: -1.3vw;
-  }
+}
+
+.sub {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.1vw;
+  line-height: 1.2;
+  font-size: 3vw;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.linkBar {
+	padding-top: 1vw;
 }
 
 main {
@@ -101,12 +127,16 @@ main {
 
 .footer {
   position: fixed;
-  left: 0;
+  #left: 0;
+  height: 2vh;
   bottom: 0;
-  width: 100%;
-  #background-color: dark-grey;
+	width: 100%;
+  #background-color: grey;
   color: white;
-  text-align: center;
+  #opacity: 0.1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
 @keyframes fadein {
