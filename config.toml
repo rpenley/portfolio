@@ -25,8 +25,7 @@ _merge = "none"
   author = "Ryne Penley"
   description = "Portfolio"
   bio = """DevOps Engineer  
-Infrastructure Architect  
-Lifelong Nerd"""
+Lifelong student of good design"""
   avatar = "rp-profile.webp"
   favicon = "favicon.ico"
   error404 = "Page Missing"
@@ -46,7 +45,7 @@ Lifelong Nerd"""
       name = "resume" # may be omitted. defaults to key name
       icon = "file-alt" # may be omitted. defaults to key name
       style = "fas" # may be omitted. default = "fas"
-      link = "https://rdp-static.s3.us-east-2.amazonaws.com/Ryne-Penley-Resume.pdf"
+      link = "/r2/resume.pdf"
     [params.contact.email]
       name = "email" # may be omitted. defaults to key name
       icon = "envelope" # may be omitted. defaults to key name
