@@ -9,7 +9,7 @@ buildExpired = false
 relativeURLs = true
 disableRSS = true
 enableRobotsTXT = true
-editor = "nano"
+editor = "vim"
 languageCode = "en"
 language = "en"
 theme = "vncnt-hugo"
@@ -24,11 +24,11 @@ _merge = "none"
 [params]
   author = "Ryne Penley"
   description = "Portfolio"
-  bio = """DevOps Engineer  
-Lifelong student of good design"""
+  bio = """DevSecOps Engineer  
+lifelong student of good design"""
   avatar = "rp-profile.webp"
   favicon = "favicon.ico"
-  error404 = "Page Missing"
+  error404 = "not the droids you're looking for"
 
   [params.contact]
     # the default fontawesome style in simple key-value pairs is "fab", i.e. brand icons
